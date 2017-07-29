@@ -1,0 +1,17 @@
+Package: billys
+Type: Package
+Title: R Wrapper for Billys.com API
+Version: 0.1.0
+Author: Kenneth Rose
+Maintainer: Kenneth Rose <kennethrose82@gmail.com>
+Description: This is an R wrapper for the billys.com
+    API. Read more at api.billys.com.
+License: MIT
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.0.1
+Imports:
+    dplyr,
+    purrr,
+    lubridate,
+    httr
