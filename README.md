@@ -10,5 +10,18 @@ Example
 This is a basic example which shows you how to solve a common problem:
 
 ``` r
-## basic example code
+
+library(billys)
+library(dplyr)
+#> 
+#> Attaching package: 'dplyr'
+#> The following objects are masked from 'package:stats':
+#> 
+#>     filter, lag
+#> The following objects are masked from 'package:base':
+#> 
+#>     intersect, setdiff, setequal, union
+
+class(billys_bank_payments())
+#> [1] "tbl_df"     "tbl"        "data.frame"
 ```

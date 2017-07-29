@@ -22,6 +22,11 @@ The goal of billys is to make a few convenience functions to help myself. To mak
 
 This is a basic example which shows you how to solve a common problem:
 
-```{r example}
-## basic example code
+```{r example, warning=FALSE}
+
+library(billys)
+library(dplyr)
+
+class(billys_bank_payments())
+
 ```

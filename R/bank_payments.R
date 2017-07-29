@@ -1,7 +1,7 @@
 
-library(dplyr)
-
-
+#' Function to get the data from the bank account.
+#'
+#' @export
 billys_bank_payments <- function(){
 
   base_url <- httr::parse_url("https://api.billysbilling.com/")
