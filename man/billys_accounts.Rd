@@ -4,7 +4,7 @@
 \alias{billys_accounts}
 \title{Function to get the data from the bank account.}
 \usage{
-billys_accounts()
+billys_accounts(...)
 }
 \description{
 Function to get the data from the bank account.
